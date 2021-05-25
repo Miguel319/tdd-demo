@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  // background-color: #fafafa !important;
+  // background: #fafafa;
+  background: rgb(247, 249, 250) !important;
+}
+
+* {
+  font-family: "Ubuntu" sans-serif !important;
+  // font-family: "Roboto", sans-serif !important;
+}
+
+.home > * {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.dream-job {
+  background: url("https://res.cloudinary.com/dvoo3wu0v/image/upload/v1617327474/lg-bg_eszphj.jpg")
+    no-repeat;
+
+  background-position: 50% 100%;
+  background-size: cover;
+  // margin-top: 50% !important;
+  padding-top: 100px;
+  height: 50vh;
+
+  h3 {
+    line-height: 1.2;
+    margin: 0 0 30px;
+    color: #001324;
+    font-size: 60px !important;
+    font-weight: bold;
+
+    span {
+      color: #1890ff;
+    }
+  }
+
+  p {
+    margin: 0 0 30px;
+    color: #001324;
+    font-weight: 600;
+    font-size: 30px;
+  }
+}
+
+.dream-job .container-fluid {
+  display: block !important;
+}
+
+.dream-job .ant-carousel,
+.dream-job .ant-carousel div {
+  height: 100%;
+}
+
+.dream-job .slick-dots li button {
+  background: #000 !important;
+}
+
+.dream-job .slick-dots li.slick-active button {
+  background: #1890ff !important;
+}
+
+.dream-job .content {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 70px;
+}
+
+.dream-job .btnHolder {
+  height: auto !important;
+}
+
+.dream-job .btnHolder button,
+.dream-job .btnHolder .fas {
+  margin: 0 10px 0 0;
+}
